@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-left:2%;
+    align-items: center;
+}
+nav img{
+    width: 135px;
+}
+.nav-links{
+    padding-left: 60%;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-left:8px;
+    padding-bottom: 12px;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 20px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+@media(max-width: 700px)
+{
+   .nav-links ul li
+    {
+        display: block;
+    }
+    .nav-links
+    {
+        position: fixed;
+        background: transparent;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer; 
+    }
+    .text-box h1{
+        font-size: 20px;
+    }
+}
+
+/*---------- best books --------*/
+
+.bbb{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;  
+}
+  
+.bbb-col{
+    flex-basis: 30%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding-top: 20px;
+    padding-right: 12px;
+    padding-left:20px;
+    padding-bottom: 12px;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+@media (max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+} 
+
+/*---------------- new arrived books ----------------*/
+
+.arrived{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.arrived p{
+    color:wheat;
+}
+
+/*-------------- databases ----------------*/
+
+.db{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.db-col{
+    flex-basis: 31%;
+    background-color: whitesmoke;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.db-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+
+@media(max-width:700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
+
+/*--------------Footer---------------*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa{
+    color: rgb(240, 65, 65);
+    margin: 0 13px;
+    padding: 18px 0;
+}
+
+
+/*--------------- about.html --------------*/
+/*--------------- about.html --------------*/
+/*--------------- about.html --------------*/
+
+/*--------------- About Us Page --------------*/
+.sub-header{
+    height: 50%;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/lib1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+}
+.sub-header h1{
+    margin-top: 100px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+.hero-btn.red-btn{
+    text-decoration: none;
+    background: transparent;
+    color: rgb(240, 65, 65);
+}
+
+.about-col img{
+    width: 100%;
+}
+
+
+
+/*------- Borrow ------------*/
+
+
+
+
+.borrow-col{
+    margin: 100px;
+    margin-top: 50px;
+}
+
+.borrow-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.borrow-col div .fa{
+    font-size: 28px;
+    color: rgb(240, 65, 65);
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.borrow-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+    
+}
+.borrow-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid rgb(238, 228, 228);
+}
+
+.borrow-col .btn{
+    background:rgb(240, 65, 65);
+    color:white;
+    border:none;
+    height:50px;
+    width:100px;
+    cursor: pointer;
+}
+
+
+
+
+/*------- Contact Us Page ------------*/
+
+
+
+
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa{
+    font-size: 28px;
+    color: rgb(240, 65, 65);
+    margin: 10px;
+    margin-right: 30px;
+}
+    
+.contact-col div p{
+    padding: 0;
+}
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+    
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid rgb(238, 228, 228);
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
